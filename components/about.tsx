@@ -19,30 +19,22 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        I am currently pursuing a Bachelor's degree in Computer Science at
+        Universiti Teknologi Petronas (UTP). My coursework has equipped me with
+        a solid foundation in algorithms, data structures, and software
+        development methodologies.
       </p>
-
+      <p className="mb-3">
+        Proficient in web development technologies such as HTML, CSS, Node.js
+        and React. Experienced in data science with skills in Python, Java and
+        C++ and familiarity with machine learning frameworks. Possess strong
+        problem-solving and collaboration abilities. Adept in non-programming
+        skills such as Filmora, PowerBI and Adobe Illustrator/Photoshop.
+      </p>
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        Beyond my academic pursuits, I am an active member of the UTPHOST Club,
+        where we collaborate with other clubs to organize and handle events in
+        college which honed my leadership and communications skills.
       </p>
     </motion.section>
   );
