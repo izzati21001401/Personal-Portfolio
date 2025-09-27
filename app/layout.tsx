@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Izzati | Personal Portfolio",
   description:
-    "Izzati Syahirah is a 2nd Year Undergraduate Student in Computer Science at Universiti Teknologi PETRONAS (UTP) and is actively looking for an internship placement from May 2024 until December 2024",
+    "Izzati Syahirah is a 4th Year Undergraduate Student in Computer Science at Universiti Teknologi PETRONAS (UTP) and is actively looking for a job placement starting from January 2026",
 };
 
 export default function RootLayout({
