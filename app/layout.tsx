@@ -10,9 +10,9 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Izzati | Personal Portfolio",
+  title: "Izzati Syahirah| Personal Portfolio",
   description:
-    "Izzati Syahirah is a 4th Year Undergraduate Student in Computer Science at Universiti Teknologi PETRONAS (UTP) and is actively looking for a job placement starting from January 2026",
+    "Izzati Syahirah is a Computer Science graduate from Universiti Teknologi PETRONAS (UTP) and is actively looking for a job placement starting from 2026",
 };
 
 export default function RootLayout({

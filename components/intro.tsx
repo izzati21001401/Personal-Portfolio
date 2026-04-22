@@ -64,14 +64,14 @@ export default function Intro() {
       >
         Hello, I'm{" "}
         <span className="font-extrabold bg-gradient-to-r from-blue-900 to-purple-950 dark:from-yellow-100 dark:to-green-100 text-transparent bg-clip-text">
-          Izzati Syahirah
+          Izzati Syahirah Binti Awet
         </span>
-        , currently a <span className="font-extrabold">Bachelor's</span> in
-        Computer Science student actively seeking an{" "}
-        <span className="font-extrabold">internship </span> to work on exciting
-        projects. My main skills are in{" "}
+        , a <span className="font-extrabold">Computer Science graduate</span>
+        activelyseeking a{" "}
+        <span className="font-extrabold">permanent job placement</span> to work
+        on exciting projects. My main skills are in{" "}
         <span className="italic">web development</span> and{" "}
-        <span className="italic">data science</span>.
+        <span className="italic">software testing and quality assurance</span>.
       </motion.h1>
 
       <motion.div
@@ -96,7 +96,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV_Izzati.pdf"
+          href="/CV_Izzati_Syahirah.pdf"
           download
         >
           Download CV{" "}
@@ -105,7 +105,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/izzati-syahirah-323508214/"
+          href="https://www.linkedin.com/in/izzati-syahirah-awet21001401/"
           target="_blank"
         >
           <BsLinkedin />

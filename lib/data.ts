@@ -35,7 +35,7 @@ export const experiencesData = [
     title: "Pure Science Stream",
     location: "MARA Junior Science College (MRSM) Betong, Sarawak",
     description: [
-      "﻿Sijil Pelajaran Malaysia (SPM) 7A+ 2A",
+      "﻿Sijil Pelajaran Malaysia (SPM) 5A+ 4A",
       "Pentaksiran Tingkatan Tiga (PT3) 8A 2B",
       "CGPA 3.90/4.0",
     ],
@@ -55,15 +55,15 @@ export const experiencesData = [
   },
   {
     title:
-      "Bachelor's in Computer Science (Hons.), Minor in Financial Management",
+      "Bachelor's in Computer Science (Hons.); Major in Software Quality, Minor in Financial Management",
     location: "PETRONAS University of Technology (UTP), Perak",
     description: [
       "PETRONAS Scholar",
-      "CGPA 3.62 / 4.0",
-      "Three-time Dean's List achiever",
+      "CGPA 3.56 / 4.0",
+      "Seven-time Dean's List achiever",
     ],
     icon: React.createElement(FaReact),
-    date: "2022 - present",
+    date: "2022 - 2025",
   },
 ] as const;
 
@@ -92,6 +92,7 @@ export const skillsData = [
   "HTML",
   "CSS",
   "Java",
+  "JavaScript",
   "React",
   "Next.js",
   "Node.js",
@@ -108,4 +109,5 @@ export const skillsData = [
   "PowerBI",
   "Microsoft Office",
   "Filmora",
+  "Figma",
 ] as const;

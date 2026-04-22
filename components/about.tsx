@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I am currently pursuing a Bachelor's degree in Computer Science at
+        I am a Bachelor's degree graduate in Computer Science at
         Universiti Teknologi Petronas (UTP). My coursework has equipped me with
         a solid foundation in algorithms, data structures, and software
         development methodologies.
