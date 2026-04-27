@@ -64,18 +64,14 @@ export default function Intro() {
       >
         A <span className="font-extrabold">Computer Science graduate</span>{" "}
         specialising in{" "}
-        <span className="font-extrabold">Software Quality Assurance</span> from
-        Universiti Teknologi PETRONAS, with hands-on experience in software
-        development, testing and UI/UX design. Completed a 7-month internship at{" "}
-        <span className="italic">PETRONAS Digital Sdn. Bhd.</span>, where I
-        improved software validation efficiency by{" "}
-        <span className="font-extrabold">40%</span> through automated testing
-        frameworks. Adept in Agile environments, cross-functional collaboration
-        and full-stack development. Seeking a full-time role as a{" "}
+        <span className="font-extrabold">Software Quality Assurance</span> and{" "}
+        <span className="font-extrabold">full-stack development</span>, with 7
+        months of industry experience at{" "}
+        <span className="italic">PETRONAS Digital Sdn. Bhd.</span> Seeking a
+        full-time role as a{" "}
         <span className="font-extrabold">Full Stack Developer</span>,{" "}
         <span className="font-extrabold">Software Developer</span>, or{" "}
-        <span className="font-extrabold">Software QA Tester</span> to
-        contribute to impactful digital transformation initiatives.
+        <span className="font-extrabold">Software QA Tester</span>.
       </motion.h1>
 
       <motion.div
@@ -88,14 +84,14 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group bg-gradient-to-r from-blue-600 to-purple-600 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:from-blue-700 hover:to-purple-700 active:scale-105 transition shadow-md"
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
           }}
         >
           Contact me here{" "}
-          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
+          <BsArrowRight className="opacity-100 group-hover:translate-x-2 transition-transform text-lg" />
         </Link>
 
         <a
