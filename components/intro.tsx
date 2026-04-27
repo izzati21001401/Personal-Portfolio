@@ -62,16 +62,20 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Hello, I'm{" "}
-        <span className="font-extrabold bg-gradient-to-r from-blue-900 to-purple-950 dark:from-yellow-100 dark:to-green-100 text-transparent bg-clip-text">
-          Izzati Syahirah Binti Awet
-        </span>
-        , a <span className="font-extrabold">Computer Science graduate</span>
-        activelyseeking a{" "}
-        <span className="font-extrabold">permanent job placement</span> to work
-        on exciting projects. My main skills are in{" "}
-        <span className="italic">web development</span> and{" "}
-        <span className="italic">software testing and quality assurance</span>.
+        A <span className="font-extrabold">Computer Science graduate</span>{" "}
+        specialising in{" "}
+        <span className="font-extrabold">Software Quality Assurance</span> from
+        Universiti Teknologi PETRONAS, with hands-on experience in software
+        development, testing and UI/UX design. Completed a 7-month internship at{" "}
+        <span className="italic">PETRONAS Digital Sdn. Bhd.</span>, where I
+        improved software validation efficiency by{" "}
+        <span className="font-extrabold">40%</span> through automated testing
+        frameworks. Adept in Agile environments, cross-functional collaboration
+        and full-stack development. Seeking a full-time role as a{" "}
+        <span className="font-extrabold">Full Stack Developer</span>,{" "}
+        <span className="font-extrabold">Software Developer</span>, or{" "}
+        <span className="font-extrabold">Software QA Tester</span> to
+        contribute to impactful digital transformation initiatives.
       </motion.h1>
 
       <motion.div

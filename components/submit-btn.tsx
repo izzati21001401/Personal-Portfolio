@@ -8,7 +8,6 @@ export default function SubmitBtn() {
 
   const handleClick = async (e: React.MouseEvent<HTMLButtonElement>) => {
     setPending(true);
-    // Simulate async submit (replace with your actual submit logic)
     await new Promise((resolve) => setTimeout(resolve, 2000));
     setPending(false);
   };
@@ -16,7 +15,7 @@ export default function SubmitBtn() {
   return (
     <button
       type="button"
-      className="group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-gray-900 text-white rounded-full outline-none transition-all focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 dark:bg-white dark:bg-opacity-10 disabled:scale-100 disabled:bg-opacity-65"
+      className="group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-gray-900 text-white rounded-full outline-none transition-all focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 dark:bg-gray-950 dark:hover:bg-gray-800 disabled:scale-100 disabled:bg-opacity-65"
       disabled={pending}
       onClick={handleClick}
     >
